@@ -20,7 +20,7 @@ public final class LibItems {
     public static Item.Properties defaultBuilder(int maxStackSize) {
         return properties.maxStackSize(maxStackSize).rarity(Rarity.COMMON);
     }
-    public static final Item EDEBE_GUN = new ItemEdebeGun(defaultBuilder());
+    public static final Item EDEBE_GUN = new ItemEdebeGun(defaultBuilder(Rarity.RARE));
 
     public static final Item LENS_MANA_STORM = new ItemLens(defaultBuilder(Rarity.UNCOMMON),new LensManaStorm(),ItemLens.PROP_TOUCH);
     public static final Item LENS_SPRINKLE = new ItemLens(defaultBuilder(Rarity.UNCOMMON),new LensSprinkle(),ItemLens.PROP_NONE);
@@ -30,5 +30,5 @@ public final class LibItems {
     public static final Item LENS_GROW = new ItemLens(defaultBuilder(),new LensGrow(),ItemLens.PROP_NONE);
     public static final Item LENS_WRAP_AROUND = new ItemLens(defaultBuilder(),new LensWrapAround(),ItemLens.PROP_NONE);
     public static final Item LENS_MANA = new ItemLens(defaultBuilder(),new LensMana(),ItemLens.PROP_NONE);
-    public static final Item LENS_EDEBE_GUN = new ItemLens(defaultBuilder(),new LensEdebeGun(),ItemLens.PROP_DAMAGE);
+    public static final Item LENS_EDEBE_GUN = new ItemLens(defaultBuilder(Rarity.EPIC),new LensEdebeGun(),ItemLens.PROP_DAMAGE);
 }
