@@ -16,6 +16,7 @@ public class LensEdebeGun extends Lens {
     @Override
     public void apply(ItemStack stack, BurstProperties props) {
         props.motionModifier *= 4.5F;
+        props.color = 0;
     }
 
     @Override
