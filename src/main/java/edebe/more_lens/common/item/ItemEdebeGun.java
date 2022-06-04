@@ -1,5 +1,6 @@
 package edebe.more_lens.common.item;
 
+import edebe.more_lens.common.item.lens.LensEdebeGun;
 import edebe.more_lens.common.lib.LibItems;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
@@ -47,7 +48,7 @@ public class ItemEdebeGun extends Item implements IManaUsingItem {
     @Nonnull
     public BurstProperties getBurstProps(PlayerEntity player, ItemStack stack, boolean request, Hand hand) {
         int maxMana = 500;
-        int color = 0;
+        int color = LensEdebeGun.COLOR;
         int ticksBeforeManaLoss = 120;
         float manaLossPerTick = 4F;
         float motionModifier = 5F;
