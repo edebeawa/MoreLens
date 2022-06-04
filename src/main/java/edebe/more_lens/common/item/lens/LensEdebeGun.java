@@ -13,10 +13,12 @@ import vazkii.botania.common.item.lens.Lens;
 import java.util.List;
 
 public class LensEdebeGun extends Lens {
+    public static final int COLOR = 0xFFD500;
+
     @Override
     public void apply(ItemStack stack, BurstProperties props) {
         props.motionModifier *= 4.5F;
-        props.color = 0;
+        props.color = COLOR;
     }
 
     @Override
@@ -38,7 +40,7 @@ public class LensEdebeGun extends Lens {
                     DamageSource src = entity.getShooter() != null
                             ? DamageSource.causeIndirectMagicDamage(entity, entity.getShooter())
                             : DamageSource.MAGIC;
-                    living.attackEntityFrom(src, mana);
+                    living.attackEntityFrom(src, mana * 0.05f);
                     burst.setMana(0);
                 }
             }
