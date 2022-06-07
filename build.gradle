@@ -19,7 +19,7 @@ group = 'com.nmmoc7'
 version = '1.16.5-r1-3'
 
 java {
-    archivesBaseName = 'random-botany'
+    archivesBaseName = 'more-lens'
     toolchain.languageVersion = JavaLanguageVersion.of(8)
 }
 
@@ -153,7 +153,7 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "edebebotany",
+                "Specification-Title"     : "moreLens",
                 "Specification-Vendor"    : "DustW",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
