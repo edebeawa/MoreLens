@@ -61,7 +61,7 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
-                randombotany {
+                morelens {
                     source sourceSets.main
                 }
             }
@@ -86,7 +86,7 @@ minecraft {
             property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
-                randombotany {
+                morelens {
                     source sourceSets.main
                 }
             }
@@ -114,7 +114,7 @@ minecraft {
             args '--mod', 'more-lens', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                randombotany {
+                morelens {
                     source sourceSets.main
                 }
             }
