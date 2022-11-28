@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:lens_normal"
+    },
+    {
+      "item": "botania:tiny_planet"
+    }
+  ],
+  "result": {
+    "item": "more_lens:lens_wrap_around"
+  }
+}

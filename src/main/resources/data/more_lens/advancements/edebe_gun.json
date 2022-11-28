@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "more_lens:edebe_gun"
+    },
+    "title": {
+      "translate": "advancement.more_lens:edebeGun.title"
+    },
+    "description": {
+      "translate": "advancement.more_lens:edebeGun.desc"
+    },
+    "frame": "challenge"
+  },
+  "parent": "botania:challenge/gaia_guardian_hardmode",
+  "criteria": {
+    "edebeGun": {
+      "trigger": "botania:relic_bind",
+      "conditions": {
+        "relic": {
+          "item": "more_lens:edebe_gun"
+        }
+      }
+    }
+  }
+}
