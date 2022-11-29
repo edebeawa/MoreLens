@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "botania:lens_normal"
+    },
+    {
+      "tag": "botania:runes/mana"
+    },
+    {
+      "item": "botania:mana_powder"
+    },
+    {
+      "item": "botania:mana_tablet"
+    }
+  ],
+  "result": {
+    "item": "more_lens:lens_mana"
+  }
+}

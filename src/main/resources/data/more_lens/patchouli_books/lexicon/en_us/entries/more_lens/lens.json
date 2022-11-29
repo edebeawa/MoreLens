@@ -1,0 +1,71 @@
+{
+  "name": "more_lens.entry.lens",
+  "category": "botania:mana",
+  "icon": "more_lens:lens_mana_storm",
+  "advancement": "botania:main/runic_altar_pickup",
+  "pages": [
+    {
+      "type": "text",
+      "text": "more_lens.page.lens0"
+    },
+    {
+      "type": "crafting",
+      "text": "more_lens.page.lens1",
+      "recipe": "more_lens:lens_mana_storm"
+    },
+    {
+      "type": "text",
+      "text": "more_lens.page.lens2"
+    },
+    {
+      "type": "crafting",
+      "text": "more_lens.page.lens3",
+      "recipe": "more_lens:lens_sprinkle"
+    },
+    {
+      "type": "text",
+      "text": "more_lens.page.lens4"
+    },
+    {
+      "type": "crafting",
+      "text": "more_lens.page.lens5",
+      "recipe": "more_lens:lens_loiter"
+    },
+    {
+      "type": "text",
+      "text": "more_lens.page.lens6"
+    },
+    {
+      "type": "crafting",
+      "text": "more_lens.page.lens7",
+      "recipe": "more_lens:lens_bounce"
+    },
+    {
+      "type": "text",
+      "text": "more_lens.page.lens8"
+    },
+    {
+      "type": "crafting",
+      "text": "more_lens.page.lens9",
+      "recipe": "more_lens:lens_grow"
+    },
+    {
+      "type": "text",
+      "text": "more_lens.page.lens10"
+    },
+    {
+      "type": "crafting",
+      "text": "more_lens.page.lens11",
+      "recipe": "more_lens:lens_wrap_around"
+    },
+    {
+      "type": "text",
+      "text": "more_lens.page.lens12"
+    },
+    {
+      "type": "crafting",
+      "text": "more_lens.page.lens13",
+      "recipe": "more_lens:lens_mana"
+    }
+  ]
+}
